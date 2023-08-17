@@ -48,13 +48,14 @@ body {
 
 #navbar input[type="text"] {
   float: right;
-  margin-right: 8px;
+  margin-right: 10px;
   margin-top: 8px;
   font-size: 16px;
   width: 260px;
   height: 40px;
   border-radius: 24px;
   padding-left: 10px;
+  padding-right: 10px;
   border: 1px solid #3d3b3b;
   background: #272727;
   font-family: "Exo", sans-serif;
@@ -117,6 +118,32 @@ input.search-box {
   padding: 80px;
   height: 1000px;
   border: 10px white;
+  overflow: hidden;
+}
+
+.main-heading {
+  padding-top: 80px;
+  margin-left: 23.5%;
+  width: 880px;
+  color: #fff;
+  text-align: center;
+  font-family: Exo;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.highlight1 {
+  background: linear-gradient(171deg, #00c2ff 0%, #00ff38 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Exo;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .world-map-background {
